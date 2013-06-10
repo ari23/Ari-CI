@@ -65,4 +65,8 @@ Change the os_boot.erb in /opt/razor/lib/project_razor/model/ubuntu/precise/
 with "echo 172.16.129.10  master.localdomain  master"
  
 
+To Autosign client certs:
+on puppet master: [master]
+autosign = /etc/puppet/autosign.conf
+
 
